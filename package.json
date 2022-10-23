@@ -6,9 +6,7 @@
     "dev": "next dev ",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prod:push": "aws s3 cp . s3://hoote-web --recursive --exclude='node_modules/*' --exclude='.git/*'",
-    "prod:pull": "aws s3 cp s3://hoote-web . --recursive --exclude='node_modules/*' --exclude='.git/*'"
+    "lint": "next lint"
   },
   "dependencies": {
     "@msis/link-preview-js": "^0.0.2",
