@@ -1,4 +1,4 @@
-import { hooteTokenApi, hooteApi, userApi } from '../config';
+
 
 export const getToken= async()=>{
   const tokenRes = await fetch(
